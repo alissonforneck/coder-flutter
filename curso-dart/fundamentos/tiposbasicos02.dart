@@ -30,7 +30,10 @@ void main(List<String> args) {
   times.add('Juventude');
   print(times.length);
   print(times.contains('Inter'));
-  print(times.first);
+  print(times);
   print(times.last);
   print(times);
+
+  print('testse');
+
 }
