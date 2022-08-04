@@ -2,7 +2,7 @@ import '../modelo/carro.dart';
 
 void main(List<String> args) {
   int cont = 0;
-  var carro1 = Carro(velocidadeAtual: 10, velocidadeMaxima: 20);
+  var carro1 = Carro(20);
   while (cont < 5) {
     carro1.acelerar;
     print(carro1);
