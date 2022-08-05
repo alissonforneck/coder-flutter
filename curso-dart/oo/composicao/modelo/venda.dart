@@ -5,7 +5,7 @@ import 'venda_item.dart';
 
 class Venda {
   Cliente cliente;
-  List<VendaItem> itens;
+  late List<VendaItem> itens;
 
   Venda({this.cliente, this.itens = const []});
 
